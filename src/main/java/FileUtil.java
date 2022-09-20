@@ -76,13 +76,4 @@ public class FileUtil {
         return file.getName();
     }
 
-    /**
-     * 获取文件绝对路径
-     * @param path 文件的路径
-     * @return 文件的绝对路径
-     */
-    public static String getPath(String path){
-        File file = new File(path);
-        return file.getPath();
-    }
 }
